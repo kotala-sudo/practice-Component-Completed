@@ -12,7 +12,8 @@ import { Course } from './model/course';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  csci160 = COURSES[0];
-  csci161 = COURSES[1];
-  csci213 = COURSES[2];
+  // csci160 = COURSES[0];
+  // csci161 = COURSES[1];
+  // csci213 = COURSES[2];
+  courses: Course[] = COURSES;
 }
